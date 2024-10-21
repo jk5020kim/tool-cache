@@ -1,8 +1,6 @@
 name:  Upload Ubuntu 22.04 java tool cache
 
-on:
-  release:
-    types: [created]
+on: push
 
 jobs:
   upload_tool_cache:
