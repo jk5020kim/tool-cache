@@ -17,7 +17,6 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
           java-package: jdk # optional (jdk or jre) - defaults to jdk
-          cache: gradle
   
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
